@@ -403,6 +403,9 @@
 .card-page__buttons .btn-main_basket::after {
 		background-position: 15px center;
 }
+.item-product {
+	margin: 0 auto;
+}
 }
 @media only screen and (max-width : 350px) {
 .link-card {
