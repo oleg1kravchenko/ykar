@@ -1,0 +1,452 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.slider-nav__item {
+	height: 70px;
+}
+.list-main {
+    font-size: 16px;
+    line-height: 25px;
+}
+.card-sidebar {
+	padding: 30px 15px;
+}
+.table-main td:first-child {
+    width: 188px;
+}
+.table-main td:nth-child(2), 
+.table-main td:nth-child(3), 
+.table-main td:nth-child(4), 
+.table-main td:nth-child(5) {
+    padding-left: 10px;
+}
+.tabs li a {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.item-calculator__title {
+    font-size: 14px;
+    }
+    .item-calculator .jqselect {
+    	display: block !important;
+    	width: 100%;
+    }
+    .recomend-section {
+    padding-bottom: 40px;
+}
+.title-section {
+	padding-top: 30px;
+}
+.card-quantity-block {
+	display: block;
+}
+.card-page__buttons .btn-main_basket {
+    margin-right: 0;
+}
+.card-quantity-block .quantity-wrap {
+	margin-left: 0;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.card-page__title {
+    font-size: 26px;
+}
+.card-sidebar {
+	margin-top: 25px;
+}
+.row_info-card {
+	margin-top: 20px;
+}
+.card-page__subtitle {
+	margin-top: 15px;
+}
+.table-main__name {
+    font-size: 14px;
+    line-height: 19px;
+    }
+    body {
+    	font-size: 14px;
+    }
+    .dropdown-price__value {
+    	    white-space: nowrap;
+    }
+    .quantity-descr {
+    	display: block;
+    	text-align: center;
+    }
+   .table-main .btn-main_basket {
+    padding-left: 40px;
+    padding-right: 20px;
+    white-space: nowrap;
+        background-position: 15px center;
+}
+.table-main .btn-main_basket::after {
+	background-position: 15px center;
+}
+.tabs li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.title-section {
+    font-size: 31px;
+}
+.tab-container {
+    font-size: 16px;
+    line-height: 24px;
+    }
+    .tab-container p {
+    margin-bottom: 15px;
+}
+.calculator-card {
+	padding-bottom: 60px;
+}
+.quantity_big + .quantity-descr {
+	display: inline-block;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.breadcumbs-list {
+	height: 40px;
+	margin: 0 -15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: #F8F8F8;
+}
+.slider-for__item {
+	height: 320px;
+}
+.slider-nav__item {
+	width: 84px;
+	height: 84px;
+	margin: 0 6px;
+}
+.card-page .card-page__status {
+	display: none;
+}
+.card-page__title {
+    font-size: 20px;
+    line-height: 24px;
+}
+.card-page__buttons .btn-main {
+	padding: 0;
+	width: 50%;
+}
+.card-page__buttons .btn-main {
+	margin-left: 15px;
+}
+.card-price {
+	padding-top: 12px;
+}
+.card-page__buttons {
+	margin-top: 28px;
+}
+.card-sidebar {
+	margin-top: 60px;
+}
+.list-main {
+	font-size: 18px;
+	line-height: 27px;
+}
+.card-sidebar {
+    padding: 30px 20px;
+    }
+    .row_info-card {
+    	display: none;
+    }
+    .card-page {
+    	padding-bottom: 20px;
+    }
+    .head-table {
+    	flex-wrap: wrap;
+    	margin: 0 -5px;
+    	justify-content: flex-start;
+    }
+    .head-table .jqselect {
+    	margin-bottom: 10px;
+    }
+.breadcumbs-list li {
+	display: none;
+}
+.table-main table,
+.table-main tbody,
+.table-main thead,
+.table-main tr,
+.table-main td {
+	display: block;
+}
+.table-main thead {
+	display: none;
+}
+.table-main td:first-child {
+	width: 100%;
+}
+.table-main tbody tr td {
+	padding: 0;
+	height: 41px;
+	display: flex;
+	flex-wrap: wrap;
+	opacity: 1 !important;
+	padding-left: 180px !important;
+	align-items: flex-start;
+	position: relative;
+}
+.price-td {
+	width: 100%;
+}
+.dropdown-price {
+	width: 100%;
+}
+.table-main td:first-child {
+	font-size: 18px;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity: 1 !important;
+	border-bottom: 3px #00AEEF solid;
+	padding-bottom: 20px;
+	height: auto !important;
+	display: block !important;
+	padding-left: 0 !important;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.table-main tbody td::before {
+    position: absolute;
+    left: 6px;
+    max-width: 145px;
+    padding-right: 10px;
+    text-align: left;
+    content: attr(data-title);
+}
+.table-main__head .card-page__hit, .table-main__head .card-page__discount {
+	font-size: 10px;
+	height: 19px;
+}
+.table-main tbody td:first-child::before {
+	display: none;
+}
+.table-main td:nth-child(7) {
+	text-align: center;
+	justify-content: center;
+	padding-left: 0 !important;
+	margin-top: 23px;
+	height: auto !important;
+}
+.quantity-descr {
+	display: inline-block;
+	margin-right: -20px;
+}
+.table-main tbody td:last-child {
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	height: auto !important;
+	padding-left: 0 !important;
+	margin-top: 15px;
+}
+.btn-main_basket {
+    padding-left: 60px;
+    padding-right: 30px;
+        background-position: 30px center;
+    }
+    .table-main .btn-main_basket::after {
+    background-position: 30px center;
+}
+.table-main tr:first-child td:first-child {
+	margin-top: 0 !important;
+}
+.head-table .jqselect {
+	margin: 0 5px;
+	margin-bottom: 7px;
+}
+.btn-bottom-table {
+	padding-top: 60px;
+	text-align: center;
+}
+.card-table {
+	padding-bottom: 50px;
+}
+.tabs {
+	flex-wrap: wrap;
+}
+.tabs li {
+	width: 50%;
+}
+.tabs li a {
+	font-size: 20px;
+	padding: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.title-section {
+    font-size: 28px;
+}
+.tab-container {
+    font-size: 18px;
+    line-height: 27px;
+}
+.tab-container .list-main {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.tab-container__image + .link-simple {
+	display: none;
+}
+.tab-container__image {
+	margin-bottom: 0;
+}
+.card-info {
+	padding-bottom: 34px;
+}
+.col-lg-7 .calculator-block__title {
+	font-size: 20px;
+	line-height: 24px;
+}
+.item-calculator__title {
+    font-size: 17px;
+}
+.calc-subprice,
+.calc-price {
+	font-size: 17px;
+}
+.hidden_mob {
+	display: none !important;
+}
+.calculator-block__buttons {
+	flex-direction: column;
+	align-items: flex-end;
+}
+.calculator-block__buttons .btn-upload {
+	order: 2;
+	margin: 0;
+	margin-top: 20px;
+}
+.calc-descr {
+	padding-bottom: 40px;
+}
+.col_buttons-cal {
+	display: flex;
+	justify-content: space-between;
+}
+.slider-card-images__item {
+	height: 210px;
+	padding: 20px;
+}
+.calculator-card {
+	padding-bottom: 50px;
+}
+.recomend-section .title-section {
+	font-size: 35px;
+	padding-top: 15px;
+}
+.slider-products .slick-prev {
+    left: 0;
+}
+.slider-products .slick-next {
+    right: 0;
+}
+.recomend-section {
+	padding-bottom: 20px;
+}
+.item-product {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.slider-products_variable {
+	margin-right: -20px;
+}
+.container {
+	max-width: 100%;
+}
+.tabs {
+	display: flex;
+}
+.hint-block {
+    transform: translateX(-67%);
+    }
+    .hint-block::after {
+    	left: auto;
+    	right: 85px;
+    }
+    .tab-pane .table-main {
+    	font-size: 14px;
+    }
+    .tab-pane .table-main tbody td:last-child {
+    	height: 41px !important;
+    	text-align: left;
+    	justify-content: flex-start;
+    	padding-left: 180px !important;
+    }
+    .tab-pane .table-main td:first-child {
+    	width: auto;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	  .tab-pane .table-main tbody td:last-child,
+.table-main tbody tr td {
+	padding-left: 160px !important;
+}
+.card-page__buttons .btn-main_basket {
+	padding-left: 20px;
+	background-position: 15px center;
+}
+.card-page__buttons .btn-main_basket::after {
+		background-position: 15px center;
+}
+}
+@media only screen and (max-width : 350px) {
+.link-card {
+	font-size: 16px;
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.show_mob {
+	display: none !important;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+    max-width: 1200px;
+}
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1200px;
+}
+}
