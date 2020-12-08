@@ -1157,3 +1157,9 @@ input[type='search']::-webkit-search-results-decoration {
 .head-table .jqselect:nth-child(2) .jq-selectbox__select-text {
 	width: 232px;
 }
+.row_calculator > div {
+	padding: 0 10px;
+}
+.row_calculator {
+	margin: 0 -10px;
+}
