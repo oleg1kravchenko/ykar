@@ -1166,3 +1166,7 @@ input[type='search']::-webkit-search-results-decoration {
 .col_pl {
 	padding-left: 0;
 }
+.card-table .quantity-button,
+.card-table .quantity input {
+	background-color: transparent;
+}
