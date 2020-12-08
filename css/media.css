@@ -449,6 +449,9 @@
 .tab-pane .table-main tbody td:last-child {
 	justify-content: flex-start;
 }
+.card-pages__links .link-card {
+    margin-left: 44px;
+}
 }
 
 /* Extra Small Devices, Phones */
