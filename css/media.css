@@ -108,6 +108,9 @@
 .quantity_big + .quantity-descr {
 	display: inline-block;
 }
+.quantity-descr {
+	margin-top: 5px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -188,24 +191,22 @@
 	width: 100%;
 }
 .table-main tbody tr td {
-	padding: 0;
-	height: 41px;
+	padding: 10px 0;
 	display: flex;
 	flex-wrap: wrap;
 	opacity: 1 !important;
-	padding-left: 180px !important;
+	padding-left: 0px !important;
 	align-items: flex-start;
 	position: relative;
 }
-.price-td {
-	width: 100%;
-}
+
 .dropdown-price {
 	width: 100%;
 }
 .table-main td:first-child {
 	font-size: 18px;
 	line-height: 20px;
+	padding: 0;
 	padding-left: 10px;
 	padding-right: 10px;
 	opacity: 1 !important;
@@ -214,14 +215,11 @@
 	height: auto !important;
 	display: block !important;
 	padding-left: 0 !important;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	margin-top: 30px;
 }
 .table-main tbody td::before {
-    position: absolute;
-    left: 6px;
-    max-width: 145px;
-    padding-right: 10px;
+    width: 180px;
     text-align: left;
     content: attr(data-title);
 }
@@ -236,7 +234,7 @@
 	text-align: center;
 	justify-content: center;
 	padding-left: 0 !important;
-	margin-top: 23px;
+	margin-top: 9px;
 	height: auto !important;
 }
 .quantity-descr {
@@ -249,7 +247,7 @@
 	justify-content: center;
 	height: auto !important;
 	padding-left: 0 !important;
-	margin-top: 15px;
+	margin-top: 0px;
 }
 .btn-main_basket {
     padding-left: 60px;
@@ -288,6 +286,7 @@
 }
 .title-section {
     font-size: 28px;
+    line-height: 34px;
 }
 .tab-container {
     font-size: 18px;
@@ -296,6 +295,7 @@
 .tab-container .list-main {
 	padding-top: 15px;
 	padding-bottom: 15px;
+	margin-bottom: 12px;
 }
 .tab-container__image + .link-simple {
 	display: none;
@@ -311,7 +311,7 @@
 	line-height: 24px;
 }
 .item-calculator__title {
-    font-size: 17px;
+    font-size: 18px;
 }
 .calc-subprice,
 .calc-price {
@@ -344,8 +344,10 @@
 	padding-bottom: 50px;
 }
 .recomend-section .title-section {
-	font-size: 35px;
+	font-size: 36px;
+	line-height: 41px;
 	padding-top: 15px;
+	padding-bottom: 40px;
 }
 .slider-products .slick-prev {
     left: 0;
@@ -388,13 +390,60 @@
     .tab-pane .table-main td:first-child {
     	width: auto;
     }
+    .table-main .quantity {
+    	margin-top: 0;
+    }
+    .card-page .col-lg-3 {
+    	padding-left: 15px;
+    }
+    .table-main .btn-main_basket {
+    	padding-left: 60px;
+    	padding-right: 30px;
+    	    background-position: 30px center;
+    }
+    .table-main .quantity-button {
+    	width: 50px;
+    	height: 50px;
+    }
+    .table-main .quantity input {
+    	width: 50px;
+    	height: 50px;
+    }
+    .table-main .quantity {
+    	width: 158px;
+    }
+    .quantity-descr {
+    	margin-top: 15px;
+    	font-size: 16px;
+    }
+    .quantity__bottom {
+    	font-size: 16px;
+    }
+    .head-table .jq-selectbox__select-text {
+    	padding-right: 40px;
+    }
+    .head-table .jqselect:nth-child(2) .jq-selectbox__select-text {
+    	width: 167px !important;
+    }
+    .calculator-block .item-calculator input, .calculator-block .jq-selectbox__select-text {
+    	font-size: 16px;
+    }
+    .calculator-block .col-md-6 .item-calculator {
+	max-width: 238px;
+}
+.col-lg-7 .calculator-block__title {
+	padding-bottom: 26px;
+}
+.calculator-card .title-section {
+	padding-bottom: 0;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	  .tab-pane .table-main tbody td:last-child,
 .table-main tbody tr td {
-	padding-left: 160px !important;
+	padding-left: 0px !important;
 }
 .card-page__buttons .btn-main_basket {
 	padding-left: 20px;
@@ -439,7 +488,16 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+.col-lg-7 .calculator-block__title {
+	padding-bottom: 47px;
+	max-width: 565px;
+}
+.calculator-block .col-md-6 .item-calculator {
+	margin-bottom: 30px;
+}
+.col-lg-7 .item-calculator {
+	margin-bottom: 17px;
+}
 }
 
  /* Large Devices, Wide Screens */

@@ -27,6 +27,7 @@ body {
 	font-family: 'Roboto Condensed';
 	font-size: 16px;
 	overflow-x: hidden;
+	color: #4F4F4F;
 	margin: 0;
 }
 button {
@@ -581,6 +582,9 @@ input[type=number]
 }
 .table-main__head .card-page__hit,
 .table-main__head .card-page__discount {
+	font-size: 10px;
+	line-height: 12px;
+	height: 18px;
 	position: relative;
 	top: 0 !important;
 	bottom: 0 !important;
@@ -610,7 +614,7 @@ input[type=number]
 	opacity: 0.75;
 }
 .table-main tbody td {
-	padding: 15px 0;
+	padding: 7px 0;
 }
 .price-td {
 	font-weight: 700;
@@ -635,7 +639,7 @@ input[type=number]
 	background-position: center;
 }
 .quantity-descr {
-	margin-top: 4px;
+	margin-top: 20px;
 	margin-left: 2px;
 	vertical-align: top;
 	display: inline-block;
@@ -716,13 +720,14 @@ input[type=number]
 	padding-bottom: 10px;
 }
 .tab-container p {
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 }
 .tab-container .list-main li {
 	padding-left: 55px;
 }
 .tab-container .list-main {
-	margin-bottom: 15px;
+	margin-bottom: 19px;
+	padding-top: 20px;
 }
 .tab-container__image {
 	margin-bottom: 22px;
@@ -833,7 +838,7 @@ input[type=number]
 .numbers-calculator-descr {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 5px;
+	margin-top: 8px;
 	margin-left: 3px;
 	border-bottom: 2px dotted #4F4F4F;
 }
@@ -1132,4 +1137,23 @@ input[type='search']::-webkit-search-results-decoration {
 }
 .card-page + .card-info {
 	padding-top: 20px;
+}
+.calculator-block .item-calculator input,
+.calculator-block .jq-selectbox__select-text {
+	padding-top: 9px;
+	padding-bottom: 9px;
+	height: 40px;
+}
+.card-page .col-lg-3 {
+	padding-left: 0;
+}
+.table-main .quantity {
+	margin-top: 15px;
+}
+.head-table .jq-selectbox__select-text {
+	font-size: 14px;
+	line-height: 20px;
+}
+.head-table .jqselect:nth-child(2) .jq-selectbox__select-text {
+	width: 232px;
 }
