@@ -304,7 +304,7 @@ p {
 	background-color: #F8F8F8;
 }
 .card-sidebar__title {
-	margin-top: 15px;
+	margin-top: 22px;
 	padding-bottom: 4px;
 	font-size: 18px;
 	line-height: 24px;
@@ -319,7 +319,7 @@ p {
 }
 .list-main li {
 	padding-left: 15px;
-	margin-bottom: 7px;
+	margin-bottom: 9px;
 	position: relative;
 }
 .list-main li::before {
