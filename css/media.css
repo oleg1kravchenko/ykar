@@ -1,5 +1,10 @@
 /*==========  Desktop First Method  ==========*/
-
+@media (min-width: 992px) and (max-width: 1200px)  {
+.calculator-block__title {
+	font-size: 21px;
+	line-height: 39px;
+}
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 .slider-nav__item {
@@ -381,12 +386,7 @@
     .tab-pane .table-main {
     	font-size: 14px;
     }
-    .tab-pane .table-main tbody td:last-child {
-    	height: 41px !important;
-    	text-align: left;
-    	justify-content: flex-start;
-    	padding-left: 180px !important;
-    }
+
     .tab-pane .table-main td:first-child {
     	width: auto;
     }
@@ -436,6 +436,16 @@
 }
 .calculator-card .title-section {
 	padding-bottom: 0;
+}
+.col_pl {
+	padding-left: 15px;
+}
+.table-main td:nth-child(7)::before,
+.table-main td:nth-child(8)::before {
+	display: none !important;
+}
+.tab-pane .table-main tbody td:last-child {
+	justify-content: flex-start;
 }
 }
 
