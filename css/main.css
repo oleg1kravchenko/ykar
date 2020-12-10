@@ -1170,3 +1170,7 @@ input[type='search']::-webkit-search-results-decoration {
 .card-table .quantity input {
 	background-color: transparent;
 }
+
+.jq-selectbox__select-text {
+	width: 100% !important;
+}

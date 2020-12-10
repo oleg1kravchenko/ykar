@@ -452,6 +452,17 @@
 .card-pages__links .link-card {
     margin-left: 44px;
 }
+.slider-products_variable::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	height: 100%;
+	width: 100px;
+	top: 0;
+	right: 0px;
+	pointer-events: none;
+    background: linear-gradient(270deg, #FFFFFF 16.73%, rgba(255, 255, 255, 0) 100%);
+}
 }
 
 /* Extra Small Devices, Phones */

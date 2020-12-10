@@ -58,6 +58,12 @@ $('.slider-for').slick({
 			settings: {
 				slidesToShow: 1,
 			}
+		},
+		{
+			breakpoint: 360,
+			settings: {
+				slidesToShow: 1,
+			}
 		}
 		]
 	});
